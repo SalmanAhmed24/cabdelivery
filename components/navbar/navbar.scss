@@ -20,6 +20,11 @@
                 display: flex;
                 justify-content: center;
             }
+            img{
+                &:hover{
+                    cursor: pointer;
+                }
+            }
         }
         .links-wrap{
             width: 80%;
