@@ -17,15 +17,25 @@
             background-repeat: no-repeat;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            justify-content: flex-start;
+            padding-top: 70px;
                 h1{
                     text-align: center;
                     font-size: 64px;
-                    margin-bottom: 50px;
+                    line-height: 55px;
                         @include below-575{
                             font-size: 32px;
                         }
+                }
+                h2{
+                    text-align: center;
+                    font-size: 32px;
+                }
+                
+                p{
+                    font-size: 20px;
+                    font-weight: 500;
+                    text-align: center;
                 }
         }
 }
@@ -50,7 +60,14 @@
                         font-size: 32px;
                         text-align: center;
                     }
-                }p{
+                    
+                }
+                h3{
+                    @include below-575{
+                        text-align: center;
+                    }
+                }
+                p{
                     font-size: 18px;
                     @include below-575{
                         text-align: center;

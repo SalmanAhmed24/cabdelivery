@@ -14,6 +14,7 @@ function OurServices() {
             height={300}
           />
           <h2>Food delivery </h2>
+          <p>Get Your Favorites Food Delivered at Your Doorstep</p>
           <Link className="btn-link" href="/services">
             Read More
           </Link>
@@ -26,6 +27,9 @@ function OurServices() {
             height={300}
           />
           <h2>Package delivery</h2>
+          <p>
+            Reliable, hassle-free package delivery. Door-to-door convenience.
+          </p>
           <Link className="btn-link" href="/services">
             Read More
           </Link>
