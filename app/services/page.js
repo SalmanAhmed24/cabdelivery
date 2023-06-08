@@ -26,7 +26,7 @@ function Services() {
             With Noor Alburaq, you have a plethora of options at your
             fingertips. From mouthwatering appetizers to savory entrees and
             decadent desserts, our extensive menu caters to all tastes and
-            preferences. Whether you're craving comfort food, international
+            preferences. Whether you&apos;re craving comfort food, international
             cuisine, or healthy alternatives, we have you covered.
           </p>
         </div>
@@ -62,11 +62,11 @@ function Services() {
           </p>
           <p>
             With our extensive network of trusted couriers, we offer a range of
-            delivery options to suit your needs. Whether it's small parcels,
-            documents, or larger packages, we handle them all with utmost care
-            and professionalism. Our streamlined process ensures that your
-            packages are picked up from your location and promptly delivered to
-            the intended destination.
+            delivery options to suit your needs. Whether it&apos;s small
+            parcels, documents, or larger packages, we handle them all with
+            utmost care and professionalism. Our streamlined process ensures
+            that your packages are picked up from your location and promptly
+            delivered to the intended destination.
           </p>
           <p>
             At Noor Alburaq, we prioritize safety and security. Our trained
