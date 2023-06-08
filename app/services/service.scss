@@ -85,3 +85,9 @@
             }
         }
 }
+.reverse-col{
+    @include below-575{
+
+        flex-direction: column-reverse;
+    }
+}

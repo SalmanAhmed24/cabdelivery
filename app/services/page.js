@@ -39,7 +39,7 @@ function Services() {
           />
         </div>
       </section>
-      <section className="food-del-col">
+      <section className="food-del-col reverse-col">
         <div className="image-wrap">
           <Image
             src="/images/package.jpg"
