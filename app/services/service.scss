@@ -1,3 +1,13 @@
+@mixin below-992{
+    @media screen and (min-width:320px) and (max-width:992.67px){
+        @content;
+    }
+}
+@mixin below-575{
+    @media screen and (min-width:320px) and (max-width:575.67px){
+        @content;
+    }
+}
 .services-main-wrap{
         .header-wrap{
             height: 500px;
@@ -13,6 +23,9 @@
                     text-align: center;
                     font-size: 64px;
                     margin-bottom: 50px;
+                        @include below-575{
+                            font-size: 32px;
+                        }
                 }
         }
 }
@@ -20,15 +33,28 @@
     display: flex;
     flex-wrap: wrap;
     padding: 20px 70px;
+    @include below-575{
+        padding: 20px;
+    }
         .content-wrap{
             width: 50%;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            @include below-992{
+                width: 100%;
+            }
                 h2{
                     font-size: 64px;
+                    @include below-575{
+                        font-size: 32px;
+                        text-align: center;
+                    }
                 }p{
                     font-size: 18px;
+                    @include below-575{
+                        text-align: center;
+                    }
                 }
         }
         .image-wrap{
@@ -37,5 +63,8 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            @include below-992{
+                width: 100%;
+            }
         }
 }
