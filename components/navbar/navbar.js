@@ -17,7 +17,9 @@ function Navbar() {
       </section>
       <section className="links-wrap">
         <ul className="ulLinks">
-          <li onClick={() => router.push("/services")}>Our Services</li>
+          <li>
+            <Link href="/services">Our Services</Link>
+          </li>
           <li>
             <Link href="/#about">About Us</Link>
           </li>
