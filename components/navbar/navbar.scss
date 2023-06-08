@@ -1,0 +1,53 @@
+@mixin below-575{
+    @media screen and (min-width:320px) and (max-width:575.67px){
+        @content;
+    }
+}
+.navbar-wrap{
+    display: flex;
+    padding: 0px 70px;
+    box-shadow: 0px 0px 15px #a2a2a2;
+    flex-wrap: wrap;
+    @include below-575{
+        padding: 0px 20px;
+    }
+        .logo-wrap{
+            width: 20%;
+            max-width: 160px;
+            min-width: 160px;
+            @include below-575{
+                min-width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .links-wrap{
+            width: 80%;
+            min-width: 320px;
+            align-self: center;
+            @include below-575{
+                width: 100%;
+                min-width: 100%;
+                margin-bottom: 10px;
+            }
+                .ulLinks{
+                    display: flex;
+                    padding: 0px;
+                    margin: 0px;
+                    list-style: none;
+                    justify-content: flex-end;
+                    @include below-575{
+                        justify-content: space-between;
+                    }
+                        li{
+                            margin:10px;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            font-size: 18px;
+                            &:hover{
+                                cursor: pointer;
+                            }
+                        }
+                }
+        }
+}
